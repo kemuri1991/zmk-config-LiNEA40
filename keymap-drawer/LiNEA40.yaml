@@ -212,9 +212,9 @@ layers:
   - {t: ▽, type: trans}
   '5':
   - {t: ▽, type: trans}
-  - Ctl+LEFT ARROW
+  - Gui+LEFT ARROW
   - UP ARROW
-  - Ctl+RIGHT ARROW
+  - Gui+RIGHT ARROW
   - {t: ▽, type: trans}
   - KP MULTIPLY
   - '7'
