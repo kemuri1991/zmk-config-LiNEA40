@@ -3,24 +3,16 @@ name: Generate Keymap Diagram
 on:
   push:
     paths:
-      - 'config/*.keymap'
+      - "config/*.keymap"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   draw:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate diagram
-        uses: caksoylar/keymap-drawer@v0.10.0
-        with:
-          keymap: config/LiNEA40.keymap
-          parse_config: config/LiNEA40.json
-          output: keymap.svg
-
-      - name: Commit diagram
-        uses: EndBug/add-and-commit@v9
-        with:
-          add: keymap.svg
-          message: 'Auto update keymap diagram'
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      keymap_path: "config/LiNEA40.keymap"
+      config_path: "config/LiNEA40.json"
+      output_path: "keymap.svg"
