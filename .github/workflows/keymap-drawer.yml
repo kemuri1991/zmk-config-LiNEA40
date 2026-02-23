@@ -1,0 +1,25 @@
+name: Generate Keymap Diagram
+
+on:
+  push:
+    paths:
+      - "config/*.keymap"
+
+jobs:
+  draw:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Generate diagram
+        uses: caksoylar/keymap-drawer@main
+        with:
+          keymap: config/LiNEA40.keymap
+          output: keymap.svg
+
+      - name: Commit diagram
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: keymap.svg
+          message: "Auto update keymap diagram"j
