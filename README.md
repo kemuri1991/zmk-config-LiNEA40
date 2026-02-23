@@ -1,3 +1,3 @@
-## Keymap (LiNEA40)
+## Keymap
 
-![Keymap](keymap.svg)
+![LiNEA40 Keymap](keymap-drawer/LiNEA40.svg)
