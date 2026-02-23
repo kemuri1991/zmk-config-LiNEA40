@@ -13,6 +13,17 @@ jobs:
   draw:
     uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
-      keymap_path: "config/LiNEA40.keymap"
-      config_path: "config/LiNEA40.json"
-      output_path: "keymap.svg"
+      # 対象keymap（1個だけに絞るならこれが確実）
+      keymap_patterns: "config/LiNEA40.keymap"
+
+      # あなたの repo にある設定ファイル（無ければ無視される仕様）
+      config_path: "keymap_drawer.config.yaml"
+
+      # .json 物理レイアウトを置いてる場所（あなたは config/ にある想定）
+      json_path: "config"
+
+      # 出力先フォルダ（この中に LiNEA40.svg / LiNEA40.yaml が作られてコミットされる）
+      output_folder: "keymap-drawer"
+
+      # 既定でも commit だけど明示しておく（わかりやすい）
+      destination: "commit"
