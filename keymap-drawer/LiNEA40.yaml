@@ -251,7 +251,7 @@ layers:
   - {t: '0', type: held}
   - '0'
   - .
-  - '?'
+  - {t: ▽, type: trans}
   '6':
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
