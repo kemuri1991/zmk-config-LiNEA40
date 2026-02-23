@@ -128,9 +128,9 @@ layers:
   - Sft+?
   '3':
   - {t: ▽, type: trans}
-  - Ctl+Gui+LEFT ARROW
+  - Ctl+LEFT ARROW
   - UP ARROW
-  - Ctl+Gui+RIGHT ARROW
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - KP MULTIPLY
   - '7'
