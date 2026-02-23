@@ -3,7 +3,7 @@ name: Generate Keymap Diagram
 on:
   push:
     paths:
-      - "config/*.keymap"
+      - 'config/*.keymap'
 
 jobs:
   draw:
@@ -13,13 +13,14 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Generate diagram
-        uses: caksoylar/keymap-drawer@main
+        uses: caksoylar/keymap-drawer@v0.10.0
         with:
           keymap: config/LiNEA40.keymap
+          parse_config: config/LiNEA40.json
           output: keymap.svg
 
       - name: Commit diagram
         uses: EndBug/add-and-commit@v9
         with:
           add: keymap.svg
-          message: "Auto update keymap diagram"
+          message: 'Auto update keymap diagram'
