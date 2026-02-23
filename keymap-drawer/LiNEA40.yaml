@@ -41,7 +41,7 @@ layers:
   - {t: ENTER, h: '5'}
   - {t: RIGHT COMMAND, h: '6'}
   - {t: DEL, h: '3'}
-  - {t: ESC, h: RIGHT SHIFT}
+  - {t: ESC, h: '?'}
   '1':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
