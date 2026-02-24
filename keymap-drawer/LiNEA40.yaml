@@ -240,7 +240,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '?'
+  - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,7 +250,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: '0', type: held}
   - '0'
-  - .
+  - BACKSPACE
   - {t: ▽, type: trans}
   '6':
   - {t: BT, h: '0'}
