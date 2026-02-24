@@ -132,31 +132,31 @@ layers:
   - Ctl+RIGHT
   - PG UP
   - HOME
-  - KP MULTIPLY
-  - '7'
-  - '8'
-  - '9'
-  - KP PLUS
+  - Gui+T
+  - Gui+Sft+T
+  - Gui+H
+  - Gui+SPACE
+  - Gui+UP ARROW
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
   - PAGE DOWN
   - END
-  - KP SLASH
-  - '4'
-  - '5'
-  - '6'
-  - KP MINUS
+  - Gui+TAB
+  - Gui+Sft+TAB
+  - Alt+LEFT
+  - Alt+RIGHT
+  - Gui+DOWN
   - Gui+[
-  - Ctl+Sft+TAB
-  - Gui+]
-  - Ctl+TAB
   - Gui+W
-  - _
-  - '1'
-  - '2'
-  - '3'
-  - ENTER
+  - Gui+]
+  - Ctl+Gui+TAB
+  - Ctl+TAB
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,9 +165,9 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '0'
-  - DELETE
-  - .
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '4':
   - F1
   - F2
@@ -211,30 +211,30 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - {t: ▽, type: trans}
+  - PG UP
   - Gui+LEFT ARROW
   - UP ARROW
   - Gui+RIGHT ARROW
-  - {t: ▽, type: trans}
+  - HOME
   - KP MULTIPLY
   - '7'
   - '8'
   - '9'
   - +
-  - {t: ▽, type: trans}
+  - PAGE DOWN
   - LEFT ARROW
   - DOWN
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - END
   - /
   - '4'
   - '5'
   - '6'
   - '-'
   - HOME
-  - PAGE DOWN
-  - END
-  - PAGE UP
+  - Ctl+[
+  - Ctl+W
+  - Ctl+]
   - {t: ▽, type: trans}
   - _
   - '1'
