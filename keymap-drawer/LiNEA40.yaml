@@ -127,9 +127,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
-  - Ctl+LEFT
+  - Gui+LEFT
   - UP
-  - Ctl+RIGHT
+  - Gui+RIGHT
   - PG UP
   - HOME
   - Gui+T
