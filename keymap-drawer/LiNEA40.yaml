@@ -163,11 +163,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '0'
+  - DELETE
   - .
-  - ENTER
-  - '?'
   '4':
   - F1
   - F2
@@ -248,10 +248,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ., type: held}
+  - {type: held}
   - '0'
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - .
   '6':
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
