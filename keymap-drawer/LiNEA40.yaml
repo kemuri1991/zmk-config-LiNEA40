@@ -211,31 +211,31 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '5':
-  - PG UP
-  - Gui+LEFT ARROW
+  - Gui+LEFT
   - UP ARROW
-  - Gui+RIGHT ARROW
+  - Gui+RIGHT
+  - PG UP
   - HOME
   - KP MULTIPLY
   - '7'
   - '8'
   - '9'
   - +
-  - PAGE DOWN
   - LEFT ARROW
   - DOWN
-  - RIGHT ARROW
+  - RIGHT
+  - PAGE DOWN
   - END
   - /
   - '4'
   - '5'
   - '6'
   - '-'
-  - HOME
   - Ctl+[
-  - Ctl+W
+  - Sft+W
   - Ctl+]
-  - {t: ▽, type: trans}
+  - Ctl+Gui+TAB
+  - Ctl+TAB
   - _
   - '1'
   - '2'
