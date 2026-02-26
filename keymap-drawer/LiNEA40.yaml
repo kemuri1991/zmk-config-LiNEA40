@@ -253,9 +253,9 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
   DAVINCI_CUT:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
