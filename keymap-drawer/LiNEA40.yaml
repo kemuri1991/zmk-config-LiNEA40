@@ -134,28 +134,28 @@ layers:
   - HOME
   - Gui+T
   - Gui+Sft+T
-  - Gui+H
-  - Gui+SPACE
-  - Gui+UP ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
   - PAGE DOWN
   - END
-  - Gui+TAB
-  - Gui+Sft+TAB
-  - Alt+LEFT
-  - Alt+RIGHT
-  - Gui+DOWN
+  - Gui+H
+  - Gui+`
+  - GLOBE
+  - Gui+SPACE
+  - {t: ▽, type: trans}
   - Gui+[
   - Gui+W
   - Gui+]
   - Ctl+Gui+TAB
   - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+TAB
+  - Gui+Sft+TAB
+  - Alt+LEFT
+  - AltGr+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
