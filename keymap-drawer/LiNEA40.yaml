@@ -255,30 +255,34 @@ layers:
   DAVINCI_CUT:
   - Gui+Z
   - Gui+Sft+Z
+  - A
   - Gui+B
-  - Sft+Z
-  - '='
+  - Alt+S
   - Gui+Z
-  - Gui+Sft+Z
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+D
+  - J
+  - K
+  - L
+  - SPACE
+  - DEL
+  - A
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+B
-  - Sft+Z
+  - LEFT ARROW
+  - RIGHT
+  - I
+  - O
+  - M
+  - Gui+B
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - LEFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - UP ARROW
+  - Q
+  - W
+  - Alt+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -286,13 +290,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: DAVINCI_COL, h: toggle}
-  - {t: ▽, type: trans}
+  - SPACE
+  - Gui+B
+  - Gui+Z
   - {t: ▽, type: trans}
   DAVINCI_COL:
   - {t: ▽, type: trans}
