@@ -252,7 +252,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - BT CLR ALL
-  '7':
+  DAVINCI_CUT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -294,7 +294,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '8':
+  DAVINCI_COL:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,4 +354,4 @@ combos:
 - p: [38, 39]
   k: Ctl+SPACE
 - p: [9, 8]
-  k: {t: '7', h: toggle}
+  k: {t: DAVINCI_CUT, h: toggle}
