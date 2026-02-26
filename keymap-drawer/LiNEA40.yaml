@@ -256,6 +256,8 @@ layers:
   - Gui+Z
   - Gui+Sft+Z
   - Gui+B
+  - Sft+Z
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,9 +267,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
   - LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
