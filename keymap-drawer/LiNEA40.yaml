@@ -39,7 +39,7 @@ layers:
   - {t: TAB, h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
-  - {t: RIGHT COMMAND, h: '3'}
+  - Ctl+SPACE
   - {t: DEL, h: RIGHT SHIFT}
   - ESC
   '1':
