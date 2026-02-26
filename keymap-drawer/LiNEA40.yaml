@@ -306,7 +306,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+S
+  - Alt+S
   - Gui+D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
