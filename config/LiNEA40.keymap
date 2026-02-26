@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -219,10 +219,10 @@
 
         DAVINCI_COL {
             bindings = <
-&trans  &trans     &trans     &trans     &trans                    &trans  &trans  &kp LG(D)  &trans  &trans
-&trans  &kp LG(S)  &kp LG(D)  &trans     &trans                    &trans  &trans  &trans     &trans  &trans
-&trans  &trans     &kp LG(C)  &kp LG(V)  &trans                    &trans  &trans  &trans     &trans  &trans
-&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans          &to 6      &trans  &trans
+&trans  &trans     &trans     &trans     &trans                    &trans    &trans  &kp LG(D)  &trans     &trans
+&trans  &kp LG(S)  &kp LG(D)  &trans     &trans                    &kp LEFT  &trans  &trans     &trans     &kp RIGHT
+&trans  &trans     &kp LG(C)  &kp LG(V)  &trans                    &trans    &trans  &kp LEFT   &kp RIGHT  &trans
+&trans  &trans     &trans     &trans     &trans  &trans    &trans  &trans            &to 6      &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
