@@ -310,11 +310,11 @@ layers:
   - Gui+D
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LEFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+C
@@ -322,8 +322,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
