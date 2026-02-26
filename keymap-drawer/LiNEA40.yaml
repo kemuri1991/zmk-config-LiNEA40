@@ -258,10 +258,10 @@ layers:
   - Gui+B
   - Sft+Z
   - '='
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+Sft+Z
+  - Gui+B
+  - Sft+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
