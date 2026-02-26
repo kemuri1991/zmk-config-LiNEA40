@@ -258,8 +258,8 @@ layers:
   - A
   - Gui+B
   - Alt+S
-  - Gui+Z
-  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+D
@@ -268,21 +268,21 @@ layers:
   - L
   - SPACE
   - DEL
-  - A
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LEFT ARROW
   - RIGHT
   - I
   - O
   - M
-  - Gui+B
   - {t: ▽, type: trans}
-  - Q
-  - W
-  - Alt+S
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
