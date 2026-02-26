@@ -35,7 +35,7 @@ layers:
   - LEFT ALT
   - LEFT COMMAND
   - INS
-  - {t: SPACE, h: '2'}
+  - {t: SPACE, h: DAVINCI_CUT}
   - {t: TAB, h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -134,8 +134,8 @@ layers:
   - HOME
   - Gui+T
   - Gui+Sft+T
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+T
+  - Gui+Sft+T
   - {t: ▽, type: trans}
   - LEFT ARROW
   - DOWN ARROW
@@ -144,9 +144,9 @@ layers:
   - END
   - Gui+H
   - Gui+`
-  - GLOBE
   - Gui+SPACE
   - {t: ▽, type: trans}
+  - GLOBE
   - Gui+[
   - Gui+W
   - Gui+]
@@ -287,54 +287,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
   - Gui+B
   - Gui+Z
-  - {t: ▽, type: trans}
-  DAVINCI_COL:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+D
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Alt+S
-  - Gui+D
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Gui+C
-  - Gui+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: DAVINCI_CUT, h: toggle}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
 - p: [11, 12]
