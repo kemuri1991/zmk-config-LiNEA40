@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -192,7 +192,7 @@
 &trans          &trans         &trans  &trans     &trans     &trans    &trans  &kp SPACE          &kp LG(B)  &kp LG(Z)  &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT_ARROW>;
+            sensor-bindings = <&mouse_scrl SCRL_RIGHT SCRL_LEFT>;
         };
 
         WIRELESS {
