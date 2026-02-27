@@ -35,7 +35,7 @@ layers:
   - LEFT ALT
   - LEFT COMMAND
   - INS
-  - {t: SPACE, h: DAVINCI_CUT}
+  - {t: SPACE, h: DAVINCI}
   - {t: TAB, h: '3'}
   - BACKSPACE
   - {t: ENTER, h: '2'}
@@ -210,9 +210,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  DAVINCI_CUT:
+  DAVINCI:
   - Gui+Z
-  - Gui+Sft+Z
+  - Sft+Gui+Z
   - A
   - M
   - Alt+S
@@ -220,7 +220,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+D
+  - {t: ▽, type: trans}
   - J
   - K
   - L
@@ -231,7 +231,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
+  - LEFT
   - RIGHT
   - I
   - O
@@ -312,4 +312,4 @@ combos:
 - p: [38, 39]
   k: Ctl+SPACE
 - p: [9, 8]
-  k: {t: DAVINCI_CUT, h: toggle}
+  k: {t: default, h: toggle}
