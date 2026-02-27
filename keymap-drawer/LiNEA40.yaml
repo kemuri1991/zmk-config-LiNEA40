@@ -214,7 +214,7 @@ layers:
   - Gui+Z
   - Gui+Sft+Z
   - A
-  - Gui+B
+  - M
   - Alt+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -235,7 +235,7 @@ layers:
   - RIGHT
   - I
   - O
-  - M
+  - Gui+B
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
