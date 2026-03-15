@@ -353,5 +353,3 @@ combos:
   k: '&mkp MB5'
 - p: [38, 39]
   k: Ctl+SPACE
-- p: [9, 8]
-  k: {t: default, h: toggle}
