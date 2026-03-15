@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -171,7 +171,7 @@
         DAVINCI {
             bindings = <
 &kp LG(Z)  &kp LS(LG(Z))  &kp A   &kp M      &kp LA(S)                    &trans  &trans  &trans  &trans  &trans
-&kp J      &kp K          &kp L   &kp SPACE  &kp DEL                      &trans  &trans  &trans  &trans  &trans
+&kp H      &kp K          &kp L   &kp SPACE  &kp DEL                      &trans  &trans  &trans  &trans  &trans
 &kp LEFT   &kp RIGHT      &kp I   &kp O      &kp LG(B)                    &trans  &trans  &trans  &trans  &trans
 &trans     &trans         &trans  &trans     &trans     &trans    &trans  &trans          &trans  &trans  &trans
             >;
